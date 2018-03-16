@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L,QSA]
+
+#AuthName "Kasting beta v1.0. For problems - email: fuadaliyev1998@gmail.com"
+#AuthType Basic
+#AuthUserFile /var/www/html/.htpasswd
+#require valid-user
